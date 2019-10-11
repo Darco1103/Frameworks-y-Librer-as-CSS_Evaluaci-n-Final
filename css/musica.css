@@ -1,0 +1,57 @@
+.musica-body {
+  background: url(../img/dj.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-img {
+  width: 150px;
+}
+
+.img-social {
+  width: 25px;
+  height: 25px;
+}
+
+.img-vertical{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+[class*="col-"]{
+  float: left;
+  padding: 15px;
+}
+
+.music-row1 {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.music-row2 {
+  background: rgba(0, 51, 0, 0.4);
+}
+
+.music-row3 {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.titulo {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.services-text {
+  color: #FFFFFF;
+}
+
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes columna derecha */
+  .right-column {
+    display: none;
+}

@@ -1,0 +1,23 @@
+.logo-img{
+  width: 30%;
+}
+
+.gastronomia-body {
+  background: url(../img/restaurant5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gastr-row1 {
+  background: rgba(70,130,180, 0.7);
+}
+
+.fondo_callout {
+  background: rgba(245,245,245, 0.8);
+}
+
+.borde_dere {
+  border-right: 1px solid #CCCCCC;
+}
+
+.text1 { color: #2BA6CB;}
